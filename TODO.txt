@@ -1,0 +1,4 @@
+18 Feb 2012:
+Need to update the save functions to check the user ID that is passed in.  If it isn't in the db,
+they should try to query facebook for the name, and save it to the db.  If that fails, they should
+use null (ie. anonymous) for the user.  This will require some refactoring.

@@ -1,0 +1,187 @@
+/*
+ Purple color for this color palette is #996699
+ */
+body
+{
+	background-color: #006699;
+	text-align: center;
+	font-family: helvetica,arial,sans-serif;
+}
+
+.container
+{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header
+{
+}
+
+#header hr
+{
+	height: 2px;
+	color: #cccccc;
+	background-color: #cccccc;
+	border: none;
+}
+
+#header h1
+{
+	font-size: 28pt;
+	color: #cccccc;
+}
+
+#toplinks
+{
+	margin-bottom: 10px;
+}
+
+#topLinks, #bottomLinks
+{
+	width: 100%;
+}
+
+#topLinks h2, #bottomLinks h2
+{
+	font-size: 14pt;
+/*	margin-top: 10px; */
+/*	margin-bottom: 20px; */
+}
+
+#topLinks h2 a:link, #topLinks a:visited, #bottomLinks h2 a:link, #bottomLinks h2 a:visited
+{
+	color: #cccccc;
+}
+
+.entry
+{
+	line-height: 150%;
+	margin-bottom: 15px;
+}
+
+.spiffy
+{
+	display: block;
+}
+
+.spiffy *
+{
+	display:block;
+	height:1px;
+	overflow:hidden;
+	font-size:.01em;
+	background:#cccccc;
+}
+
+.spiffy1
+{
+	margin-left:3px;
+	margin-right:3px;
+	padding-left:1px;
+	padding-right:1px;
+	border-left:1px solid #5791ae;
+	border-right:1px solid #5791ae;
+	background:#99b2bf;
+}
+
+.spiffy2
+{
+	margin-left:1px;
+	margin-right:1px;
+	padding-right:1px;
+	padding-left:1px;
+	border-left:1px solid #14709e;
+	border-right:1px solid #14709e;
+	background:#a5b8c2;
+}
+
+.spiffy3
+{
+	margin-left:1px;
+	margin-right:1px;
+	border-left:1px solid #a5b8c2;
+	border-right:1px solid #a5b8c2;
+}
+
+.spiffy4
+{
+	border-left:1px solid #5791ae;
+	border-right:1px solid #5791ae;
+}
+
+.spiffy5
+{
+	border-left:1px solid #99b2bf;
+	border-right:1px solid #99b2bf;
+}
+
+.spiffyfg
+{
+	background:#cccccc;
+	font-size:12pt;
+	text-align: left;
+	padding: 5px 15px;
+}
+
+.spiffyfg h2
+{
+	margin: 0px;
+	margin-bottom: 10px;
+	font-size: 14pt;
+}
+
+.spiffyfg h2 a:link, .spiffyfg h2 a:visited
+{
+	color:#006699;
+}
+
+.postedBy
+{
+	font-size: 75%;
+	margin-top: 10px;
+}
+
+#footer
+{
+	font-size: 75%;
+	color: #cccccc;
+}
+
+.error
+{
+	color: red;
+}
+
+/*
+ * Formatting for cards
+ */
+.card
+{
+	background-color: white;
+	width: 9.0cm;
+	height: 5.5cm;
+	border: 1px dashed black;
+	font-family: verdana,helvetica,arial,sans-serif;
+}
+
+.card .smallLabel
+{
+	font-size: 10pt;
+}
+
+.card .largeLabel
+{
+	font-size: 24pt;
+}
+
+/*
+ * Formatting for the facebook login button.
+ */
+.fb-login-button
+{
+	padding: 2px;
+	background-color: #cccccc;
+	display: none;
+}
